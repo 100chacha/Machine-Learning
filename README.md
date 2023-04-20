@@ -46,9 +46,9 @@ Conda是开源软件包管理系统和环境管理系统。Conda可以快速安�
 之后重启jupyter
 
 ### 3、查看当前环境
-`import sys
-print(sys.version)
-print(sys.executable)`
+`import sys`
+`print(sys.version)`
+`print(sys.executable)`
 
 
 
