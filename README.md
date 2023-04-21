@@ -57,3 +57,17 @@ W的列数（即`W.shape[1]`）就是下一层的units数（即下一层的神�
 W的行数就是前一层的神经元数量，即输入时候的数量
 
 
+
+### tensorflow一般步骤
+1、指定模型，告诉tf如何工作
+`mdoel=Sequential([Dense(units=25,activation='sigmoid'),Dense(units=15,activation='sigmoid'),Dense(units=1,activation='sigmoid')
+]`
+
+2、编译模型
+选择合适的损失函数
+`model.compile(loss=BinaryCrossentropy())`
+
+3、训练模型
+epochs指的是梯度下降的次数
+`model.fit(train_x,trian_y,epochs=100)`
+
