@@ -50,5 +50,9 @@ Conda是开源软件包管理系统和环境管理系统。Conda可以快速安�
 `print(sys.version)`
 `print(sys.executable)`
 
+# 神经网络
+## 前向神经网络
+
+W的列数（即`W.shape[1]`）就是下一层的units数（即下一层的神经元数量）
 
 
