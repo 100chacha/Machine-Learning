@@ -76,3 +76,12 @@ Dense(units=1,activation='sigmoid')
 epochs指的是梯度下降的次数
 `model.fit(train_x,trian_y,epochs=100)`
 
+## 卷积层
+### 卷积层是啥
+不是所有的输入都能被下一层的神经元接收到，可能只能看到一部份
+### 好处
+1、运算速度更快
+
+2、训练时，需要的训练数据更少，不容易过拟合
+
+
