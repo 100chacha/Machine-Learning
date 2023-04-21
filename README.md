@@ -66,10 +66,12 @@ Dense(units=1,activation='sigmoid')
 ]`
 
 2、编译模型  
+
 选择合适的损失函数
 `model.compile(loss=BinaryCrossentropy())`
 
 3、训练模型  
+
 epochs指的是梯度下降的次数
 `model.fit(train_x,trian_y,epochs=100)`
 
