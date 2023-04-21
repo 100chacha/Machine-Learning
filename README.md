@@ -60,6 +60,7 @@ W的行数就是前一层的神经元数量，即输入时候的数量
 
 ### tensorflow一般步骤
 1、指定模型，告诉tf如何工作
+
 `mdoel=Sequential([Dense(units=25,activation='sigmoid'),
 Dense(units=15,activation='sigmoid'),
 Dense(units=1,activation='sigmoid')
